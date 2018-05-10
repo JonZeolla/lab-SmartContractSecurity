@@ -20,7 +20,7 @@ Now you need some test ether. Go to the following site to get some test ether.
 
 https://faucet.metamask.io/
 
-Now click on the request 1 button a few times. Probably best to get around 10 ether. It will take up to a minute to process, as this is waiting to mine the next block on the test network.
+Now click on the request 1 button a few times. Probably best to get around 10 ether (but don't go too crazy, lest you get the dreaded `{"error":"User is greedy."}` error). It will take up to a minute to process, as this is waiting to mine the next block on the test network.
 
 ![](images/screen1.png)
 
@@ -44,6 +44,8 @@ Now type `player` in the console line. It should return the address associated w
 
 ![](images/screen5.png)
 
+> If you get an `Uncaught ReferenceError: player is not defined` error, you should be able to fix it by reopening the ethernaut.zeppelin.solutions page.  This will happen if you are playing around on the ethernaut page prior to installing MetaMask.
+
 Now let’s try and generate an Instance. Scroll to the bottom of the page and click on the button `Get new instance`.
 
 > Note: if you generate a TypeError from generating a new instance, then I would recommend trying to send yourself 4 ETH via Metamask. Click the Metamask extension, click on the ***Send*** button, and then fill in the information to send. The To: address should be yours (should be available in the dropdown) and the amount should be 4 ETH. Then click `Next` and `Confirm` the transaction. It will take a couple of moments to mine. Once you see the transaction went through, try and clicking on the* ***Get new instance*** *button again.*
@@ -56,7 +58,7 @@ If you are successfully setup for the CTF, reload the page and you should see fo
 
 Congrats - you are now setup to play on the CTF. Walk through the intro **Hello Ethernaut** before coming to the event would be helpful. You can start by typing:
 
-`contact.info()`
+`contract.info()`
 
 Follow the guidance through the console to complete the level. Once you are successful, click on the `Submit instance` button to validate if all checks have been cleared. If you are completed and the transaction has been mined, you will see this message.
 
