@@ -1,6 +1,6 @@
 # Telephone
 
-* What funcion transfers ownership?
+* What function transfers ownership?
 * What is the difference between `txt.origin` and `msg.sender`?
 
 [Remix](https://remix.ethereum.org/)
