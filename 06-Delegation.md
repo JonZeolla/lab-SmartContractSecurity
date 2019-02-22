@@ -20,7 +20,7 @@ Solidity only uses the first four bytes of the hash - so cutting it up would be 
 
 Now if we call the fallback function with the parameter of the pwn function, it will execute under the current contract - similar to something like inherited classes.
 
-contract.sendTransaction({data: "0xdd365b8b"})
+`contract.sendTransaction({data: "0xdd365b8b"})`
 
 We should now be the owner if executed correctly.
 
